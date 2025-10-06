@@ -1,0 +1,12 @@
+[workspace]
+members = ["programs/wallet_management", "programs/payment_settlement"]
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[scripts]
+test = "anchor test"

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+backend/.env
+backend/node_modules/
+frontend/web/node_modules/
+frontend/mobile/node_modules/
+**/__pycache__/
+*.pyc
+.solana/
+target/
+.DS_Store
